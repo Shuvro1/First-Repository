@@ -1,1 +1,1 @@
-This is a sample front page HTML and CSS coded. For any kind of direcotry website.
+This is a sample front page HTML and CSS coded. For any kind of direcotry website.You can use it freeee.
