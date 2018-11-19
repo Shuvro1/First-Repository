@@ -1,0 +1,1 @@
+This is a sample front page HTML and CSS coded. For any kind of direcotry website.

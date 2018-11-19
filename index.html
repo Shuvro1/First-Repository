@@ -1,0 +1,1044 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>PSD to HTML</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Montserrat:300,400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+  <div class="main-wraper">
+   <div class="container">
+    <div class="main-menu">
+      <nav class="navbar navbar-default">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <div class="menu-items">
+            <ul class="nav navbar-nav">
+              <li><a href="#">Reality</a></li>
+              <li><a href="#">Living</a></li>
+              <li><a href="#">Education</a></li>
+              <li><a href="#">Entertainment</a></li>
+              <li><a href="#">Mobility</a></li>
+            </ul><!-- /.nav navbar-nav -->
+            
+             <div class="search" id="formButton">
+              <a title=""><i class="fa fa-search"></i></a>
+            </div><!-- search -->
+            <div class="login" data-toggle="modal" data-target="#exampleModal">
+              <a title=""><i class="fa fa-user"></i>Login</a>
+            </div><!-- search --> 
+           
+          </div>  <!-- /menu items -->                    
+        </div><!-- /.navbar-collapse -->
+        <form class="navbar-form" id="form1">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+        </form>
+      </nav><!-- /.navbar navbar-default -->
+    </div>
+    <!-- login modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="exampleModalLabel">Enter your username and password</h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="recipient-name" class="control-label">Username</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="form-group">
+                <label for="recipient-name" class="control-label">Password</label>
+                <input type="password" class="form-control" id="recipient-name">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary log-button">Login</button>
+          </div>
+        </div>
+      </div>
+    </div><!-- login modal -->
+  </div><!-- /.container -->
+
+  <!--Search area-->
+  <section class="search-area" style="background: url(img/search-background.jpg);background-repeat: no-repeat;background-size: cover">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <div class="search-form">
+            <form action="">
+             <h2>What are you looking for?</h2> 
+             <div class="row">
+               <div class="col-sm-6">
+                 <div class="form-group">
+                  <div class="select-area">
+                    <div class="select-icon">
+                      <select name="" id="" class="form-control">
+                      <option value="Dhaka">Dhaka</option>
+                      <option value="Barisal">Barisal</option>
+                      <option value="Rongpur">Rongpur</option>
+                      <option value="Sylhet">Sylhet</option>
+                    </select>
+                    </div> 
+                  </div><!--//select-area--> 
+                </div><!--//form-group-->
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <div class="select-area">
+                    <div class="select-icon">
+                      <select name="" id="" class="form-control">
+                      <option value="Dhaka">Education</option>
+                      <option value="Barisal">Business</option>
+                      <option value="Rongpur">Park</option>
+                      <option value="Sylhet">Market</option>
+                    </select>
+                    </div> 
+                  </div><!--//select-area--> 
+                </div><!--//form-group-->
+              </div>
+            </div>
+            <div class="form-group">
+             <input type="text" class="form-control" placeholder="What are you looking for?">
+           </div><!--form-group-->
+           <div class="search-button">
+             <div class="form-group">
+             <input type="submit" class="form-control" value="search">
+           </div><!--form-group-->
+           </div><!--//search-button-->
+           
+         </form>
+       </div><!--//search-from-->  
+     </div>
+   </div><!--//row-->  
+ </div><!--//container-->  
+</section><!--//search-area--> 
+<!--filter  section--> 
+<section class="filter">
+  <div class="container">
+    <div class="row">
+      <div class="col-xm-12 col-sm-6 col-md-6 col-lg-4">
+        <div class="update">
+          <ul>          
+            <li class="active"><a href="#">Recommended</a></li>
+            <li><a href="#">latest</a></li>
+            <li><a href="#">Highlights</a></li>
+          </ul>
+        </div><!--/update--> 
+      </div>
+      <div class="col-xm-12 col-sm-6 col-md-6 col-lg-4">
+        <div class="filter-form">
+          <form>
+            <div class="row">
+              <div class="col-sm-6">
+                 <div class="form-group">
+                  <div class="select-area">
+                    <div class="select-icon">
+                      <select name="" id="" class="form-control">
+                      <option value="Dhaka">Dhaka</option>
+                      <option value="Barisal">Barisal</option>
+                      <option value="Rongpur">Rongpur</option>
+                      <option value="Sylhet">Sylhet</option>
+                    </select>
+                    </div> 
+                  </div><!--//select-area--> 
+                </div><!--//form-group-->
+              </div>
+              <div class="col-sm-6">
+                 <div class="form-group">
+                  <div class="filter-map-button">
+                   <input type="submit" class="form-control" value="show map">
+                   </div>
+                 </div><!--form-group-->
+             </div>
+            </div><!--/row-->
+          </form>
+        </div><!--/filter-form-->
+      </div>
+      <div class="col-xm-12 col-sm-6 col-md-6 col-lg-4">
+        <div class="filter-icon-area">
+          <div class="filter-icon-heading">
+          <p>filter:</p>
+        </div><!--filter-icon-heading-->
+        <div class="filter-icon">
+          <ul>
+            <li class="green"><a href="" title=""><i class="fa fa-home"></i></a></li>
+            <li class="ash"><a href="" title=""><i class="fa fa-user"></i></a></li>
+            <li class="ash"><a href="" title=""><i class="fa fa-graduation-cap"></i></a></li>
+            <li class="yellow"><a href="" title=""><i class="fa fa-music"></i></a></li>
+            <li class="perple"><a href="" title=""><i class="fa fa-car"></i></a></li>
+          </ul>
+        </div><!--/filter-icon-->
+        </div><!--/filter-icon-area-->
+        
+      </div>
+    </div><!--//row-->  
+  </div>
+ </section><!--//filter  section--> 
+<!-- product section -->
+<section class="products">
+  <div class="container">
+    <div class="row">
+      <div class="col-xm-12 col-sm-6 col-md-3">
+        <div class="single-product">
+          <div class="single-product-head">
+            <img src="img/product-sm-1.jpg" alt="">
+            <div class="single-product-icon">
+              <a href=""><i class="fa fa-home"></i></a>
+            </div><!-- single-product-icon -->
+            <div class="single-product-price">
+              <a href="">$2,990</a>
+            </div><!-- single-product-price -->
+            <div class="single-product-hover">
+              <div class="show-more">
+                <a href="" title=""><i class="fa fa-search"></i>show more</a>
+              </div><!-- show-more -->
+              <div class="single-product-hover-rating">
+                <span>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                </span>
+                <span>
+                  <i class="fa fa-comments-o"></i>
+                </span>
+              </div><!-- single-product-hover-rating -->
+            </div><!-- single-product-hover -->
+          </div><!-- single-product-head -->
+          <div class="single-product-bottom">
+            <p>2 bedroom house for rent</p>
+            <div class="agency-name">
+              <a href="">vision agency</a>
+            </div><!-- agency-name -->
+            <div class="agency-rating">
+              <a href="" title="">
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star-o"></i> 
+               <span>(365)</span> 
+              </a>
+            </div>
+          </div><!-- single-product-bottom -->
+        </div> <!-- single-product -->
+      </div><!-- col -->
+      <div class="col-xm-12 col-sm-6 col-md-3">
+        <div class="single-product">
+          <div class="single-product-head">
+            <img src="img/product-sm-2.jpg" alt="">
+            <div class="single-product-icon">
+              <a href=""><i class="fa fa-music"></i></a>
+            </div><!-- single-product-icon -->
+            <div class="single-product-hover">
+              <div class="show-more">
+                <a href="" title=""><i class="fa fa-search"></i>show more</a>
+              </div><!-- show-more -->
+              <div class="single-product-hover-rating">
+                <span>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                </span>
+                <span>
+                  <i class="fa fa-comments-o"></i>
+                </span>
+              </div><!-- single-product-hover-rating -->
+            </div><!-- single-product-hover -->
+          </div><!-- single-product-head -->
+          <div class="single-product-bottom">
+            <p>Beach party festival 2014</p>
+            <div class="agency-name">
+              <a href="">vision agency</a>
+            </div><!-- agency-name -->
+            <div class="agency-rating">
+              <a href="" title="">
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star-o"></i> 
+               <span>(365)</span> 
+              </a>
+            </div>
+          </div><!-- single-product-bottom -->
+        </div> <!-- single-product -->
+      </div><!-- col -->
+      <div class="col-xm-12 col-sm-6 col-md-3">
+        <div class="single-product">
+          <div class="single-product-head">
+            <img src="img/product-sm-1.jpg" alt="">
+            <div class="single-product-icon">
+              <a href=""><i class="fa fa-bus"></i></a>
+            </div><!-- single-product-icon -->
+            <div class="single-product-price">
+              <a href="">$2,990</a>
+            </div><!-- single-product-price -->
+            <div class="single-product-hover">
+              <div class="show-more">
+                <a href="" title=""><i class="fa fa-search"></i>show more</a>
+              </div><!-- show-more -->
+              <div class="single-product-hover-rating">
+                <span>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                </span>
+                <span>
+                  <i class="fa fa-comments-o"></i>
+                </span>
+              </div><!-- single-product-hover-rating -->
+            </div><!-- single-product-hover -->
+          </div><!-- single-product-head -->
+          <div class="single-product-bottom">
+            <p>Aliquam quis pulvinar purus</p>
+            <div class="agency-name">
+              <a href="">vision agency</a>
+            </div><!-- agency-name -->
+            <div class="agency-rating">
+              <a href="" title="">
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star-o"></i> 
+               <span>(365)</span> 
+              </a>
+            </div>
+          </div><!-- single-product-bottom -->
+        </div> <!-- single-product -->
+      </div><!-- col -->
+      <div class="col-xm-12 col-sm-6 col-md-3">
+        <div class="single-product">
+          <div class="single-product-head">
+            <img src="img/product-sm-1.jpg" alt="">
+            <div class="single-product-icon">
+              <a href=""><i class="fa fa-user"></i></a>
+            </div><!-- single-product-icon -->
+            <div class="single-product-price">
+              <a href="">$2,990</a>
+            </div><!-- single-product-price -->
+            <div class="single-product-hover">
+              <div class="show-more">
+                <a href="" title=""><i class="fa fa-search"></i>show more</a>
+              </div><!-- show-more -->
+              <div class="single-product-hover-rating">
+                <span>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                </span>
+                <span>
+                  <i class="fa fa-comments-o"></i>
+                </span>
+              </div><!-- single-product-hover-rating -->
+            </div><!-- single-product-hover -->
+          </div><!-- single-product-head -->
+          <div class="single-product-bottom">
+            <p>2 bedroom house for rent</p>
+            <div class="agency-name">
+              <a href="">vision agency</a>
+            </div><!-- agency-name -->
+            <div class="agency-rating">
+              <a href="" title="">
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star-o"></i> 
+               <span>(365)</span> 
+              </a>
+            </div>
+          </div><!-- single-product-bottom -->
+        </div> <!-- single-product -->
+      </div><!-- col -->
+      <div class="col-xm-12 col-sm-6 col-md-6">
+        <div class="single-product big-product">
+          <div class="single-product-head">
+            <img src="img/product-big-1.jpg" alt="">
+            <div class="single-product-icon">
+              <a href=""><i class="fa fa-bus"></i></a>
+            </div><!-- single-product-icon -->
+            <div class="agency-name-big">
+              <ul>
+                <li><span>Vision agency</span></li>
+                <li>
+                    <a href="" title="">
+                     <i class="fa fa-star"></i>  
+                     <i class="fa fa-star"></i>  
+                     <i class="fa fa-star"></i>  
+                     <i class="fa fa-star-o"></i>  
+                     <i class="fa fa-star-o"></i> 
+                     <span>(365)</span> 
+                   </a>
+               </li>
+             </ul>
+            </div><!-- agency-name-big -->
+          </div><!-- single-product-head -->
+          <div class="single-product-bottom">
+            <div class="big-product-content">
+              <div class="big-content-left">
+                <img src="img/team-1.jpg" alt="">
+              </div><!-- big-content-left -->
+              <div class="big-content-right">
+                <div class="agency-rating">
+                  <a href="" title="">
+                   <i class="fa fa-star"></i>  
+                   <i class="fa fa-star"></i>  
+                   <i class="fa fa-star"></i>  
+                   <i class="fa fa-star"></i>  
+                   <i class="fa fa-star-o"></i> 
+                 </a>
+               </div>
+               <h2>lucky p</h2>
+                <p>Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim faucibus, quis posuere orci ornare. Duis mattis sagittis fringilla.</p>
+                <a href="" title="">...read more</a>
+              </div><!-- big-content-right -->
+            </div><!-- big-product-content -->
+          </div><!-- single-product-bottom -->
+        </div> <!-- single-product -->
+      </div><!-- col -->
+      <div class="col-xm-12 col-sm-6 col-md-6">
+        <div class="single-product big-product">
+          <div class="single-product-head">
+            <img src="img/product-big-2.jpg" alt="">
+            <div class="single-product-icon">
+              <a href=""><i class="fa fa-bus"></i></a>
+            </div><!-- single-product-icon -->
+            <div class="agency-name-big">
+              <ul>
+                <li><span>Vision agency</span></li>
+                <li>
+                    <a href="" title="">
+                     <i class="fa fa-star"></i>  
+                     <i class="fa fa-star"></i>  
+                     <i class="fa fa-star"></i>  
+                     <i class="fa fa-star-o"></i>  
+                     <i class="fa fa-star-o"></i> 
+                     <span>(365)</span> 
+                   </a>
+               </li>
+             </ul>
+            </div><!-- agency-name-big -->
+          </div><!-- single-product-head -->
+          <div class="single-product-bottom">
+            <div class="big-product-content">
+              <div class="big-content-left">
+                <img src="img/team-2.jpg" alt="">
+              </div><!-- big-content-left -->
+              <div class="big-content-right">
+                <div class="agency-rating">
+                  <a href="" title="">
+                   <i class="fa fa-star"></i>  
+                   <i class="fa fa-star"></i>  
+                   <i class="fa fa-star"></i>  
+                   <i class="fa fa-star"></i>  
+                   <i class="fa fa-star-o"></i> 
+                 </a>
+               </div>
+               <h2>peta j</h2>
+                <p>Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim faucibus, quis posuere orci ornare. Duis mattis sagittis fringilla.</p>
+                <a href="" title="">...read more</a>
+              </div><!-- big-content-right -->
+            </div><!-- big-product-content -->
+          </div><!-- single-product-bottom -->
+        </div> <!-- single-product -->
+      </div><!-- col -->
+      <div class="col-xm-12 col-sm-6 col-md-3">
+        <div class="single-product">
+          <div class="single-product-head">
+            <img src="img/product-sm-1.jpg" alt="">
+            <div class="single-product-icon">
+              <a href=""><i class="fa fa-home"></i></a>
+            </div><!-- single-product-icon -->
+            <div class="single-product-price">
+              <a href="">$2,990</a>
+            </div><!-- single-product-price -->
+            <div class="single-product-hover">
+              <div class="show-more">
+                <a href="" title=""><i class="fa fa-search"></i>show more</a>
+              </div><!-- show-more -->
+              <div class="single-product-hover-rating">
+                <span>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                </span>
+                <span>
+                  <i class="fa fa-comments-o"></i>
+                </span>
+              </div><!-- single-product-hover-rating -->
+            </div><!-- single-product-hover -->
+          </div><!-- single-product-head -->
+          <div class="single-product-bottom">
+            <p>2 bedroom house for rent</p>
+            <div class="agency-name">
+              <a href="">vision agency</a>
+            </div><!-- agency-name -->
+            <div class="agency-rating">
+              <a href="" title="">
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star-o"></i> 
+               <span>(365)</span> 
+              </a>
+            </div>
+          </div><!-- single-product-bottom -->
+        </div> <!-- single-product -->
+      </div><!-- col -->
+      <div class="col-xm-12 col-sm-6 col-md-3">
+        <div class="single-product">
+          <div class="single-product-head">
+            <img src="img/product-sm-2.jpg" alt="">
+            <div class="single-product-icon">
+              <a href=""><i class="fa fa-music"></i></a>
+            </div><!-- single-product-icon -->
+            <div class="single-product-hover">
+              <div class="show-more">
+                <a href="" title=""><i class="fa fa-search"></i>show more</a>
+              </div><!-- show-more -->
+              <div class="single-product-hover-rating">
+                <span>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                </span>
+                <span>
+                  <i class="fa fa-comments-o"></i>
+                </span>
+              </div><!-- single-product-hover-rating -->
+            </div><!-- single-product-hover -->
+          </div><!-- single-product-head -->
+          <div class="single-product-bottom">
+            <p>Beach party festival 2014</p>
+            <div class="agency-name">
+              <a href="">vision agency</a>
+            </div><!-- agency-name -->
+            <div class="agency-rating">
+              <a href="" title="">
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star-o"></i> 
+               <span>(365)</span> 
+              </a>
+            </div>
+          </div><!-- single-product-bottom -->
+        </div> <!-- single-product -->
+      </div><!-- col -->
+      <div class="col-xm-12 col-sm-6 col-md-3">
+        <div class="single-product">
+          <div class="single-product-head">
+            <img src="img/product-sm-1.jpg" alt="">
+            <div class="single-product-icon">
+              <a href=""><i class="fa fa-bus"></i></a>
+            </div><!-- single-product-icon -->
+            <div class="single-product-price">
+              <a href="">$2,990</a>
+            </div><!-- single-product-price -->
+            <div class="single-product-hover">
+              <div class="show-more">
+                <a href="" title=""><i class="fa fa-search"></i>show more</a>
+              </div><!-- show-more -->
+              <div class="single-product-hover-rating">
+                <span>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                </span>
+                <span>
+                  <i class="fa fa-comments-o"></i>
+                </span>
+              </div><!-- single-product-hover-rating -->
+            </div><!-- single-product-hover -->
+          </div><!-- single-product-head -->
+          <div class="single-product-bottom">
+            <p>Aliquam quis pulvinar purus</p>
+            <div class="agency-name">
+              <a href="">vision agency</a>
+            </div><!-- agency-name -->
+            <div class="agency-rating">
+              <a href="" title="">
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star-o"></i> 
+               <span>(365)</span> 
+              </a>
+            </div>
+          </div><!-- single-product-bottom -->
+        </div> <!-- single-product -->
+      </div><!-- col -->
+      <div class="col-xm-12 col-sm-6 col-md-3">
+        <div class="single-product">
+          <div class="single-product-head">
+            <img src="img/product-sm-1.jpg" alt="">
+            <div class="single-product-icon">
+              <a href=""><i class="fa fa-user"></i></a>
+            </div><!-- single-product-icon -->
+            <div class="single-product-price">
+              <a href="">$2,990</a>
+            </div><!-- single-product-price -->
+            <div class="single-product-hover">
+              <div class="show-more">
+                <a href="" title=""><i class="fa fa-search"></i>show more</a>
+              </div><!-- show-more -->
+              <div class="single-product-hover-rating">
+                <span>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                </span>
+                <span>
+                  <i class="fa fa-comments-o"></i>
+                </span>
+              </div><!-- single-product-hover-rating -->
+            </div><!-- single-product-hover -->
+          </div><!-- single-product-head -->
+          <div class="single-product-bottom">
+            <p>2 bedroom house for rent</p>
+            <div class="agency-name">
+              <a href="">vision agency</a>
+            </div><!-- agency-name -->
+            <div class="agency-rating">
+              <a href="" title="">
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star-o"></i> 
+               <span>(365)</span> 
+              </a>
+            </div>
+          </div><!-- single-product-bottom -->
+        </div> <!-- single-product -->
+      </div><!-- col -->
+      <div class="col-xm-12 col-sm-6 col-md-6">
+        <div class="single-product big-product">
+          <div class="single-product-head">
+            <img src="img/product-big-2.jpg" alt="">
+            <div class="single-product-icon">
+              <a href=""><i class="fa fa-bus"></i></a>
+            </div><!-- single-product-icon -->
+            <div class="agency-name-big">
+              <ul>
+                <li><span>Vision agency</span></li>
+                <li>
+                    <a href="" title="">
+                     <i class="fa fa-star"></i>  
+                     <i class="fa fa-star"></i>  
+                     <i class="fa fa-star"></i>  
+                     <i class="fa fa-star-o"></i>  
+                     <i class="fa fa-star-o"></i> 
+                     <span>(365)</span> 
+                   </a>
+               </li>
+             </ul>
+            </div><!-- agency-name-big -->
+          </div><!-- single-product-head -->
+          <div class="single-product-bottom">
+            <div class="big-product-content">
+              <div class="big-content-left">
+                <img src="img/team-2.jpg" alt="">
+              </div><!-- big-content-left -->
+              <div class="big-content-right">
+                <div class="agency-rating">
+                  <a href="" title="">
+                   <i class="fa fa-star"></i>  
+                   <i class="fa fa-star"></i>  
+                   <i class="fa fa-star"></i>  
+                   <i class="fa fa-star"></i>  
+                   <i class="fa fa-star-o"></i> 
+                 </a>
+               </div>
+               <h2>peta j</h2>
+                <p>Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim faucibus, quis posuere orci ornare. Duis mattis sagittis fringilla.</p>
+                <a href="" title="">...read more</a>
+              </div><!-- big-content-right -->
+            </div><!-- big-product-content -->
+          </div><!-- single-product-bottom -->
+        </div> <!-- single-product -->
+      </div><!-- col -->
+      <div class="col-xm-12 col-sm-6 col-md-3">
+        <div class="single-product">
+          <div class="single-product-head">
+            <img src="img/product-sm-1.jpg" alt="">
+            <div class="single-product-icon">
+              <a href=""><i class="fa fa-home"></i></a>
+            </div><!-- single-product-icon -->
+            <div class="single-product-price">
+              <a href="">$2,990</a>
+            </div><!-- single-product-price -->
+            <div class="single-product-hover">
+              <div class="show-more">
+                <a href="" title=""><i class="fa fa-search"></i>show more</a>
+              </div><!-- show-more -->
+              <div class="single-product-hover-rating">
+                <span>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                </span>
+                <span>
+                  <i class="fa fa-comments-o"></i>
+                </span>
+              </div><!-- single-product-hover-rating -->
+            </div><!-- single-product-hover -->
+          </div><!-- single-product-head -->
+          <div class="single-product-bottom">
+            <p>2 bedroom house for rent</p>
+            <div class="agency-name">
+              <a href="">vision agency</a>
+            </div><!-- agency-name -->
+            <div class="agency-rating">
+              <a href="" title="">
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star-o"></i> 
+               <span>(365)</span> 
+              </a>
+            </div>
+          </div><!-- single-product-bottom -->
+        </div> <!-- single-product -->
+      </div><!-- col -->
+      <div class="col-xm-12 col-sm-6 col-md-3">
+        <div class="single-product">
+          <div class="single-product-head">
+            <img src="img/product-sm-2.jpg" alt="">
+            <div class="single-product-icon">
+              <a href=""><i class="fa fa-music"></i></a>
+            </div><!-- single-product-icon -->
+            <div class="single-product-hover">
+              <div class="show-more">
+                <a href="" title=""><i class="fa fa-search"></i>show more</a>
+              </div><!-- show-more -->
+              <div class="single-product-hover-rating">
+                <span>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                </span>
+                <span>
+                  <i class="fa fa-comments-o"></i>
+                </span>
+              </div><!-- single-product-hover-rating -->
+            </div><!-- single-product-hover -->
+          </div><!-- single-product-head -->
+          <div class="single-product-bottom">
+            <p>Beach party festival 2014</p>
+            <div class="agency-name">
+              <a href="">vision agency</a>
+            </div><!-- agency-name -->
+            <div class="agency-rating">
+              <a href="" title="">
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star"></i>  
+               <i class="fa fa-star-o"></i> 
+               <span>(365)</span> 
+              </a>
+            </div>
+          </div><!-- single-product-bottom -->
+        </div> <!-- single-product -->
+      </div><!-- col -->
+    </div><!-- row -->
+    <div class="row section-border">
+      <div class="col-md-4 col-md-offset-4">
+        <div class="learn-more">
+          <h2><a href="" title="">load more <i class="fa fa-long-arrow-right"></i></a></h2>
+        </div>
+      </div>
+    </div>
+  </div><!-- container -->
+</section><!-- products -->
+<!-- offer -->
+<section class="offer wow bounceInLeft data-wow-duration='1s'">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="offer-heading">
+          <h2>What can DuHoot offer to you?</h2>
+          <p>Etiam cursus ipsum quis enim faucibus</p>
+        </div><!-- offer-heading -->
+      </div><!-- col -->
+    </div><!-- row -->
+    <div class="row">
+      <div class="offer-list">
+        <ul class="nav nav-tabs">
+          <li class="active"><a  data-toggle="tab" href="#home" title=""><i class="fa fa-home"></i></a></li>
+          <li><a  data-toggle="tab" href="#family" title=""><i class="fa fa-user"></i></a></li>
+          <li><a  data-toggle="tab" href="#education" title=""><i class="fa fa-graduation-cap"></i></a></li>
+          <li><a  data-toggle="tab" href="#music" title=""><i class="fa fa-music"></i></a></li>
+          <li><a  data-toggle="tab" href="#bus" title=""><i class="fa fa-bus"></i></a></li>
+        </ul>
+      </div><!-- offer-list -->
+    </div><!-- row -->
+    <div class="row">
+      <div class="offer-list-content">
+        <div class="tab-content">
+          <div class="tab-pane active" id="home">
+            <div class="offer-list-content-heading">
+              <h2>Home</h2>
+            </div>
+            <div class="col-md-6">
+              <div class="offer-content-left">
+                <div class="offer-content-icon wow fadeInUp">
+                  <i class="fa fa-home" aria-hidden="true"></i>
+                </div><!-- offer-content-icon -->
+                <div class="off-content">
+                  <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.</p>
+                </div><!-- off-content -->
+              </div><!-- offer-content-left -->
+            </div>
+            <div class="col-md-6">
+              <div class="offer-content-left">
+                <div class="offer-content-icon">
+                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                </div><!-- offer-content-icon -->
+                <div class="off-content">
+                  <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.</p>
+                </div><!-- off-content -->
+              </div><!-- offer-content-left -->
+            </div>
+          </div><!-- tab-pane -->
+
+          <div class="tab-pane" id="family">
+            <div class="offer-list-content-heading">
+              <h2>User</h2>
+            </div>
+            <div class="col-md-6">
+              <div class="offer-content-left">
+                <div class="offer-content-icon">
+                  <i class="fa fa-user" aria-hidden="true"></i>
+                </div><!-- offer-content-icon -->
+                <div class="off-content">
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                </div><!-- off-content -->
+              </div><!-- offer-content-left -->
+            </div>
+            <div class="col-md-6">
+              <div class="offer-content-left">
+                <div class="offer-content-icon">
+                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                </div><!-- offer-content-icon -->
+                <div class="off-content">
+                  <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.</p>
+                </div><!-- off-content -->
+              </div><!-- offer-content-left -->
+            </div>
+          </div><!-- tab-pane -->
+          <div class="tab-pane" id="education">
+            <div class="offer-list-content-heading">
+              <h2>Education</h2>
+            </div>
+            <div class="col-md-6">
+              <div class="offer-content-left">
+                <div class="offer-content-icon">
+                  <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                </div><!-- offer-content-icon -->
+                <div class="off-content">
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                </div><!-- off-content -->
+              </div><!-- offer-content-left -->
+            </div>
+            <div class="col-md-6">
+              <div class="offer-content-left">
+                <div class="offer-content-icon">
+                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                </div><!-- offer-content-icon -->
+                <div class="off-content">
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                </div><!-- off-content -->
+              </div><!-- offer-content-left -->
+            </div>
+          </div><!-- tab-pane -->
+          <div class="tab-pane" id="music">
+            <div class="offer-list-content-heading">
+              <h2>Music</h2>
+            </div>
+            <div class="col-md-6">
+              <div class="offer-content-left">
+                <div class="offer-content-icon">
+                  <i class="fa fa-music" aria-hidden="true"></i>
+                </div><!-- offer-content-icon -->
+                <div class="off-content">
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                </div><!-- off-content -->
+              </div><!-- offer-content-left -->
+            </div>
+            <div class="col-md-6">
+              <div class="offer-content-left">
+                <div class="offer-content-icon">
+                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                </div><!-- offer-content-icon -->
+                <div class="off-content">
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                </div><!-- off-content -->
+              </div><!-- offer-content-left -->
+            </div>
+          </div><!-- tab-pane -->
+          <div class="tab-pane" id="bus">
+            <div class="offer-list-content-heading">
+              <h2>Bus</h2>
+            </div>
+            <div class="col-md-6">
+              <div class="offer-content-left">
+                <div class="offer-content-icon">
+                  <i class="fa fa-bus" aria-hidden="true"></i>
+                </div><!-- offer-content-icon -->
+                <div class="off-content">
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                </div><!-- off-content -->
+              </div><!-- offer-content-left -->
+            </div>
+            <div class="col-md-6">
+              <div class="offer-content-left">
+                <div class="offer-content-icon">
+                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                </div><!-- offer-content-icon -->
+                <div class="off-content">
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                </div><!-- off-content -->
+              </div><!-- offer-content-left -->
+            </div>
+          </div><!-- tab-pane -->
+        </div><!-- tab-content -->
+      </div><!-- offer-list-content -->
+    </div>
+  </div> <!-- container -->
+</section><!-- offer -->
+<footer style="background-image: url(img/footer-background.jpg);background-repeat: no-repeat;background-size: cover;">
+  <div class="container">
+    <div class="row section-border-light">
+      <div class="footer-top">
+        <div class="col-md-6 col-md-offset-3">
+          <h2 class="footer-title">Subscribe to our newsletter</h2>
+           <div class="subscribe-form">
+            <form>
+              
+              <div class="form-group">
+                <i class="fa fa-envelope-o"></i>
+                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+              </div>
+              <button type="submit" class="btn btn-default">subscribe</button>
+                          </form>
+            </div><!-- subscribe-form -->
+
+      </div><!-- col -->
+      </div><!-- footer-top -->      
+    </div><!-- row -->
+    <div class="row">
+      <div class="footer-bottom wow fadeInDown">
+        <div class="col-md-3 col-sm-6">
+          <h2>Other Menu</h2>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Location</a></li>
+            <li><a href="">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <h2>Links</h2>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Location</a></li>
+            <li><a href="">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="social-area">
+            <h2>Follow Us</h2>
+            <div class="social-icons">
+              <ul>
+                <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+              </ul>
+            </div><!-- social-icons -->
+            <div class="copyright">
+             <p>Copyright &copy; Shuvro Jyoti</p>
+           </div>
+         </div><!-- social-area -->
+       </div>
+      </div><!-- footer-bottom -->
+    </div>
+  </div><!-- conatiner -->
+</footer>
+
+
+  </div><!--//Main Wraper-->
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+   <script src="js/bootstrap.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/wow.min.js"></script>
+</body>
+
+</html>
